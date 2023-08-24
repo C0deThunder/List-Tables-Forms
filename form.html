@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        input[type=number] {
+            border-radius: 5px;
+        }
+        table {
+  border: 4px outset lightgrey;
+  text-align: center;
+  border-bottom-color: black;
+  border-right-color: black;
+  border-spacing: 5px;
+        }
+
+        td {
+            color: black;
+            background-color: #48cdff;
+            text-align: left;
+            border: 2px inset lightgrey;
+            border-top-color: black;
+            border-left-color: black;
+        }
+        th {
+            color: red;
+            background-color: #feffaa;
+            border: 2px inset lightgrey;
+            border-top-color: black;
+            border-left-color: black;
+        }
+    </style>
+    <table>
+        <th colspan="2" style="font-size: 35px;">Registration Form</th>
+        <tr>
+            <td><b>Enter Name</b></td>
+            <td><form style="text-align: left;"><input type= "text"></form></td>
+        </tr>
+        <tr>
+            <td><b>Enter Password</b></td>
+            <td><form style="text-align: left;"><input type= "text"></form></td>
+        </tr>
+        <tr>
+            <td><b>Enter Address</b></td>
+            <td style="text-align: left;"><textarea rows="4" columns="50"></textarea></td>
+        </tr>
+        <tr>
+            <td><b>Select Game</b></td>
+            <td><form style="text-align: left;">
+                <input type= "checkbox" name="Hockey">
+                <label for="Hockey">Hockey</label><br>
+                <input type= "checkbox" name="Football">
+                <label for="Football">Football</label><br>
+                <input type= "checkbox" name="Badminton">
+                <label for="Badminton">Badminton</label><br>
+                <input type= "checkbox" name="Cricket">
+                <label for="Cricket">Cricket</label><br>
+                <input type= "checkbox" name="Volleyball">
+                <label for="Volleyball">Volleyball</label><br>
+            </form></td>
+        </tr>
+        <tr>
+            <td><b>Gender</b></td>
+            <td><form style="text-align: left;">
+                <input type="radio" name="male">
+                <label for="male">Male</label>
+                <input type="radio" name="female">
+                <label for="female">Female</label>
+            </form></td>
+        </tr>
+        <tr>
+            <td><b>Select ur age</b></td>
+            <td><form style="text-align: left;" id="age"><input type="number"></form></td>
+        </tr>
+        <tr>
+            <td><b>Select Photo</b></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><h3>
+                <input type="button" value="Click Me!" style="height:50px; width:200px; font-size: 20px;">
+                <input type="reset" style="height:50px; width: 200px; font-size: 20px;">
+                <input type="submit" style="height:50px; width:200px; font-size: 20px;">
+            </h3></td>
+        </tr>
+
+    </table>
+</html>
